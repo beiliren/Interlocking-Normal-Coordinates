@@ -10,9 +10,6 @@ From the extracted package root:
 
 ```matlab
 addpath(fullfile(pwd,'matlab'))
-replot_saved_results                     % redraw supplied arrays
-report = check_saved_data;               % recompute saved velocities, jumps and energies
-run_saved_benchmarks                     % complete replay using supplied reference jets
 run_all                                 % new piecewise-IVP integrations and full experiment
 ```
 
